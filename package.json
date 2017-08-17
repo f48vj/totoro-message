@@ -1,0 +1,26 @@
+{
+  "name": "totoro-message",
+  "description": "totoro message client",
+  "author": {
+    "name": "Zhang Weijie",
+    "email": "email@zhangweijie.cn",
+    "url": "http://zhangweijie.cn"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron app",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^1.7.5",
+    "electron-builder": "^19.22.1"
+  },
+  "build": {
+    "appId": "cn.zhangweijie.totoro-message",
+    "productName": "Totoro Message"
+  }
+}
