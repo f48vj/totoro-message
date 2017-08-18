@@ -12,7 +12,8 @@
   "scripts": {
     "start": "electron app",
     "pack": "electron-builder --dir",
-    "dist": "electron-builder"
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
   },
   "dependencies": {},
   "devDependencies": {
